@@ -1,4 +1,3 @@
-# Working in progress
 
 ![Working in Progress][def]
 

@@ -1,3 +1,5 @@
 # Working in progress
 
-![Working in Progress](/Assets/Images/Wip.png "WIP")
+![Working in Progress][def]
+
+[def]: /Assets/Images/wip.png "WIP"

@@ -4,3 +4,25 @@ Classical computers can't generate true random numbers because they rely on dete
 
 # Quantum Computers
 In contrast, quantum computers can generate true random numbers due to the inherent probabilistic nature of quantum mechanics. When a qubit in superposition is measured, the outcome is genuinely random, and there's no way to predict it with certainty. This allows quantum computers to generate truly random numbers, unlike classical computers.
+
+# Visualize the Q# code with the Bloch sphere
+
+In the Bloch sphere, the north pole represents the classical value 0 and the south pole represents the classical value 1. Any superposition can be represented by a point on the sphere (represented by an arrow). The closer the end of the arrow to a pole the higher the probability the qubit collapses into the classical value assigned to that pole when measured. For example, the qubit state represented by the arrow in the following figure has a higher probability of giving the value 0 if you measure it.
+
+![qrng-bloch](/Assets/Images/qrng-bloch_1.png "qrng-bloch")
+
+You can use this representation to visualize what the code is doing:
+
+1) First, start with a qubit initialized in the state 0 and apply an H operation to create an equal superposition in which the probabilities for 0 and 1 are the ame.
+
+![qrng-h_2](/Assets/Images/qrng-h_2.png "qrng-h_2")
+
+2) Then measure the qubit and save the output:
+
+![qrng-meas_3](/Assets/Images/qrng-meas_3.png "qrng-meas_3")
+
+Since the outcome of the measurement is random and the probabilities of measuring 0 and 1 are the same, you have obtained a completely random bit. You can call this operation several times to create integers. For example, if you call the operation three times to obtain three random bits, you can build random 3-bit numbers (that is, a random number between 0 and 7).
+
+
+### Source provided by:
+https://learn.microsoft.com/en-us/azure/quantum/tutorial-qdk-quantum-random-number-generator?tabs=tabid-vscode

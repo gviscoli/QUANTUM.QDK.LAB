@@ -11,6 +11,8 @@ In the Bloch sphere, the north pole represents the classical value 0 and the sou
 
 ![qrng-bloch](/Assets/Images/qrng-bloch_1.png "qrng-bloch")
 
+<img src="/Assets/Images/qrng-bloch_1.png" width="60" height="60" />
+
 You can use this representation to visualize what the code is doing:
 
 1) First, start with a qubit initialized in the state 0 and apply an H operation to create an equal superposition in which the probabilities for 0 and 1 are the ame.

@@ -2,7 +2,7 @@
 # In this repository will find my Quantum Experiments with new Quantum SDK provided by Microsoft
 #
 
-![Quantum Computing is fun!](/assets/images/quantum.jpg "Quantum Logo")
+![Quantum Computing is fun!](/Assets/images/Quantum.jpg "Quantum Logo")
 
 
 ### References

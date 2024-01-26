@@ -3,4 +3,5 @@
 #
 
 
-## Link: https://learn.microsoft.com/en-us/azure/quantum/install-overview-qdk#installing-the-modern-qdk-on-vs-code
+### References
+Link: https://learn.microsoft.com/en-us/azure/quantum/install-overview-qdk#installing-the-modern-qdk-on-vs-code
